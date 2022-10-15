@@ -1,2 +1,1 @@
-enum FuelType 
-{ SUPER, EXTRA, DIESEL }
+enum FuelType { SUPER, EXTRA, DIESEL }

@@ -1,28 +1,25 @@
 import 'Brand.dart';
 
- abstract class Car {
-  Brand? brand ;
-  String? model ;
+abstract class Car {
+  Brand? brand;
+  String? model;
   int? year;
-  
 
-  Car(this.brand, this.model, this.year){
+  Car(this.brand, this.model, this.year) {}
 
-  }
-  
-  double calculateLicensePlate(int year){
+  double calculateLicensePlate(int year) {
     return 200 * (year - this.year!).toDouble();
   }
 
-  int calculateAge(){
+  int calculateAge() {
     return (year! - this.year!).toInt();
   }
 
-  bool isCab(){
+  bool isCab() {
     return false;
   }
 
-  bool isTest(); 
+  bool isTest();
 
   @override
   String toString() {
