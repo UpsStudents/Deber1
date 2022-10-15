@@ -1,6 +1,6 @@
 import 'Brand.dart';
 
-class Car {
+ abstract class Car {
   Brand? brand ;
   String? model ;
   int? year;
@@ -21,6 +21,8 @@ class Car {
   bool isCab(){
     return false;
   }
+
+  bool isTest(); 
 
   @override
   String toString() {

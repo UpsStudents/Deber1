@@ -7,6 +7,9 @@ class Electric extends Car {
   Electric(super.brand, super.model, super.year){
     
   }
-
+  
+  bool isTest(){
+    return true;
+  } 
 
 }

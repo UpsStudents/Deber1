@@ -8,8 +8,9 @@ import 'Hybrid.dart';
 main() {
   // Defino una variable del tipo de la clase en este caso Auto
   final brand = Brand("1E","X","Peugeot");
-  final simpleCar = Car(brand,"208", 2022);
-  print(simpleCar.toString());
+  // como es abracto no lo puedo implementar 
+  //final simpleCar = Car(brand,"208", 2022);
+  //print(simpleCar.toString());
 
   final combustionCar = Combustion(brand, "301", 2222 , FuelType.DIESEL);
   print(combustionCar.toString());
